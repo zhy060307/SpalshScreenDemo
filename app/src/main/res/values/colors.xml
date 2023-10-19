@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black30">#4D000000</color>
+
+    <color name="ic_launcher_background_tint">#000000</color>
+    <color name="ic_launcher_foreground_tint">#FCFCFC</color>
+    <color name="color_splash_background">#00FFFF</color>
+    <color name="color_splash_icon_background">#FF0000</color>
+</resources>
