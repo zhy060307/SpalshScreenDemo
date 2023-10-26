@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "SpalshScreenDemo"
 include(":app")
+include(":splash11")
+include(":splash2")
+include(":splash0")

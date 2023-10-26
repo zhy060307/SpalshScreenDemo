@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SpalshScreenDemo" parent="@android:style/Theme.NoTitleBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SpalshScreenDemo" parent="Base.Theme.SpalshScreenDemo" >
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+</resources>

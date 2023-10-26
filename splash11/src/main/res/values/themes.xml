@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme.Base" parent="@android:style/Theme.NoTitleBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+
+    </style>
+
+    <style name="BaseAppTheme" parent="@style/AppTheme.Base">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+    </style>
+
+    <style name="ActTheme" parent="@style/AppTheme">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/MyAnimationActivity</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+<!--        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>-->
+<!--        <item name="android:windowSplashScreenAnimationDuration">0</item>-->
+    </style>
+
+    <style name="MyAnimationActivity" parent="">
+        <item name="android:activityOpenEnterAnimation">@anim/wb_movie_enter_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/wb_movie_exit_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/wb_movie_enter_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/wb_movie_exit_right</item>
+        <item name="android:taskOpenEnterAnimation">@anim/wb_movie_enter_right</item>
+        <item name="android:taskOpenExitAnimation">@anim/wb_movie_exit_left</item>
+        <item name="android:taskCloseEnterAnimation">@anim/wb_movie_enter_left</item>
+        <item name="android:taskCloseExitAnimation">@anim/wb_movie_exit_right</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/wb_movie_enter_right</item>
+        <item name="android:taskToFrontExitAnimation">@anim/wb_movie_exit_left</item>
+        <item name="android:taskToBackEnterAnimation">@anim/wb_movie_enter_left</item>
+        <item name="android:taskToBackExitAnimation">@anim/wb_movie_exit_right</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+
+    </style>
+
+    <style name="splashTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>-->
+    </style>
+</resources>
