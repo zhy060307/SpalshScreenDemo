@@ -14,4 +14,12 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
+
+    <style name="Theme.SplashNormal1" parent="Base.Theme.SplashScreenDemo">
+        <item name="android:windowSplashScreenBackground">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/news_avd_v02</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/blue</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_launcher_foreground</item>
+    </style>
 </resources>
